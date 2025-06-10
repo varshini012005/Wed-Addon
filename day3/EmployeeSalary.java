@@ -1,13 +1,13 @@
 public class EmployeeSalary {
     public static void main(String[] args) {
-        String fullTimeName = "Alice";
+        String fullTimeName = "sree";
         double fullTimeSalary = 50000;
 
-        String partTimeName = "Bob";
+        String partTimeName = "varshini";
         double partTimeHourlyRate = 20;
         int partTimeHoursWorked = 100;
 
-        String freelancerName = "Charlie";
+        String freelancerName = "anandhan";
         double freelancerHourlyRate = 30;
         int freelancerHoursWorked = 80;
         double freelancerBonus = 200;
