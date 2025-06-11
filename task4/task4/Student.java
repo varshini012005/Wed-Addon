@@ -12,9 +12,9 @@ public class Students {
 
     public static void main(String[] args) {
 
-        String inputFile = "C:\\Users\\Karthikeyan M\\Downloads\\Student.txt";
+        String inputFile = "Student.txt";
 
-        String outputFile = "C:\\Users\\Karthikeyan M\\Downloads\\results.txt";
+        String outputFile = "results.txt";
 
 
 
