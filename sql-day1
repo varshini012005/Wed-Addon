@@ -1,0 +1,239 @@
+ create table Student(
+    -> sname varchar(50),
+    -> sroll int,
+    -> semail varchar(40),
+    -> snum int,
+    -> sdep varchar(30)
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> select *
+    -> from student
+    -> from student;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from student' at line 3
+mysql> select *
+    -> from student;
+Empty set (0.04 sec)
+
+mysql> insert into student values('sree',1900,'varshisree',13344456,'cs');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select *from
+    -> student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from stud
+    -> select * from student;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from student' at line 2
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> select * from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> desc student;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| sname  | varchar(50) | YES  |     | NULL    |       |
+| sroll  | int         | YES  |     | NULL    |       |
+| semail | varchar(40) | YES  |     | NULL    |       |
+| snum   | int         | YES  |     | NULL    |       |
+| sdep   | varchar(30) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.04 sec)
+
+mysql> select *
+    -> from student;
++-------+-------+------------+----------+------+
+| sname | sroll | semail     | snum     | sdep |
++-------+-------+------------+----------+------+
+| sree  |  1900 | varshisree | 13344456 | cs   |
++-------+-------+------------+----------+------+
+1 row in set (0.00 sec)
+
+mysql> insert into student values('varshini',1334,'afddsfsdfsf',132343,'cs');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> select * from student;
++----------+-------+-------------+----------+------+
+| sname    | sroll | semail      | snum     | sdep |
++----------+-------+-------------+----------+------+
+| sree     |  1900 | varshisree  | 13344456 | cs   |
+| varshini |  1334 | afddsfsdfsf |   132343 | cs   |
++----------+-------+-------------+----------+------+
+2 rows in set (0.00 sec)
+
+mysql> alter table student
+    -> add course varchar(50);
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select *from student;
++----------+-------+-------------+----------+------+--------+
+| sname    | sroll | semail      | snum     | sdep | course |
++----------+-------+-------------+----------+------+--------+
+| sree     |  1900 | varshisree  | 13344456 | cs   | NULL   |
+| varshini |  1334 | afddsfsdfsf |   132343 | cs   | NULL   |
++----------+-------+-------------+----------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> update student set course="bca";
+Query OK, 2 rows affected (0.05 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+mysql> update student set course="bt"
+    -> where sroll=1334;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select *from student;
++----------+-------+-------------+----------+------+--------+
+| sname    | sroll | semail      | snum     | sdep | course |
++----------+-------+-------------+----------+------+--------+
+| sree     |  1900 | varshisree  | 13344456 | cs   | bca    |
+| varshini |  1334 | afddsfsdfsf |   132343 | cs   | bt     |
++----------+-------+-------------+----------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> show create table student;
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table   | Create Table                                                                                                                                                                                                                                                                                       |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| student | CREATE TABLE `student` (
+  `sname` varchar(50) DEFAULT NULL,
+  `sroll` int DEFAULT NULL,
+  `semail` varchar(40) DEFAULT NULL,
+  `snum` int DEFAULT NULL,
+  `sdep` varchar(30) DEFAULT NULL,
+  `course` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.03 sec)
