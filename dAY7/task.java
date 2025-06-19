@@ -1,4 +1,6 @@
-  mysql> create table Course(
+Task 2
+  
+mysql> create table Course(
     -> Coursefee int
     -> );
 mysql> insert into course values(10000);
