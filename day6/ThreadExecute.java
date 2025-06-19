@@ -5,7 +5,7 @@ class Main extends Thread{
         }
     }
 }
-class Execute{
+class ThreadExecute{
     public static void main(String[] args){
         Main m=new Main();
         m.start();
